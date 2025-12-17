@@ -1,0 +1,17 @@
+.female-bar {
+  fill: #e07a7a;
+}
+
+.male-bar {
+  fill: #6a9fb5;
+}
+
+svg text {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  stroke: #999;
+}
