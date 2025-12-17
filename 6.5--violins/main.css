@@ -1,0 +1,31 @@
+/* -------------------------
+   Violin chart styles
+------------------------- */
+
+.violin-plot path {
+  /* The full violin fill */
+  fill: #6b5b95;      /* slateGray */
+  fill-opacity: 0.3;  /* semi-transparent */
+  stroke: none;        /* no border stroke */
+}
+
+.violin-plot .iqr-rect {
+  /* Interquartile range rectangle */
+  width: 8px;
+  rx: 4px;             /* rounded corners */
+  ry: 4px;
+  fill: #606464;       /* gray from shared-constants.js */
+}
+
+.violin-plot .mean-circle {
+  /* Circle representing the mean */
+  r: 3px;
+  fill: #faffff;       /* white from shared-constants.js */
+  stroke: none;
+}
+
+/* Optional: stroke for whiskers or other lines */
+.violin-plot .quartile-line {
+  stroke: black;
+  stroke-width: 2px;
+}

@@ -1,4 +1,4 @@
-// Helper to generate a random salary from a salary range string
+// Generate a random salary from a salary range string
 const getRandomSalary = (salary) => {
     const lowerLimit = +salary.slice(1, salary.indexOf(` -`)).replace(`,`, ``);
     const upperLimit = +salary.slice(salary.indexOf(` $`) + 2).replace(`,`, ``);
